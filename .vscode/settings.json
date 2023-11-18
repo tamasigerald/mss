@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript"
+  },
+  "tailwindCSS.experimental.configFile": null,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["tv\\((([^()]*|\\([^()]*\\))*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", ".*Styles*"],
+  "tailwindCSS.lint.cssConflict": "error"
+}

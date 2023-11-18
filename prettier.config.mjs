@@ -1,6 +1,8 @@
-/** @type {import('prettier').Config} */
+/** @type {import('prettier').Config & import("prettier-plugin-tailwindcss").PluginOptions} */
 const config = {
   jsxSingleQuote: true,
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindFunctions: ['tv'],
   printWidth: 80,
   semi: true,
   singleQuote: true,
