@@ -1,8 +1,6 @@
-import type { Metadata } from 'next';
-
-import { Montserrat } from 'next/font/google';
-
 import '@/styles/globals.css';
+import { type Metadata } from 'next';
+import { Montserrat } from 'next/font/google';
 import { tv } from 'tailwind-variants';
 
 const montserrat = Montserrat({
