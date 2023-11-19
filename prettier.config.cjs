@@ -9,4 +9,4 @@ const config = {
   useTabs: false,
 };
 
-export default config;
+module.exports = config;
